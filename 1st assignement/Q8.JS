@@ -12,3 +12,7 @@ unction calculator(num1, num2, operator) {
             return 'Error: Invalid operator';
     }
 }
+console.log(calculator(12, 2, '+'));
+console.log(calculator(12, 2, '-'));
+console.log(calculator(12, 2, '*'));
+console.log(calculator(12, 2, '/'));
