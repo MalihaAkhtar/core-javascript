@@ -1,7 +1,14 @@
-let a = 4;
-let b=3;
-let sum= a+b;
-let subtract= a-b;
-let multiply= a*b;
-let divide= a/b;
-console.log(sum,subtract,multiply,divide)
+unction calculator(num1, num2, operator) {
+    switch(operator) {
+        case '+':
+            return num1 + num2;
+        case '-':
+            return num1 - num2;
+        case '*':
+            return num1 * num2;
+        case '/':
+            return num2 !== 0 ? num1 / num2 : 'Error: Division by zero';
+        default:
+            return 'Error: Invalid operator';
+    }
+}
